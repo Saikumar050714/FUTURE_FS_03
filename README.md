@@ -4,6 +4,8 @@ Future Interns Task 3 – Local Business Website &amp; Live Pitch Project
 =======
 # ☕ Brew & Bean Café — Website
 
+**[🔴 Live Demo ✨](https://saikumar050714.github.io/FUTURE_FS_03/)**
+
 A beautifully designed, fully responsive website for **Brew & Bean Café**, a specialty coffee shop and artisan food destination located in Bengaluru, India. Built with pure HTML, CSS, and JavaScript — no frameworks, no dependencies.
 
 ---
