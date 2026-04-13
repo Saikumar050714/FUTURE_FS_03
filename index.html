@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Brew & Bean Café — Specialty Coffee & Artisan Food | Bengaluru</title>
+  <meta name="description" content="Brew & Bean Café — Your neighborhood specialty coffee shop serving handcrafted espresso, artisan pastries, and gourmet meals in the heart of Bengaluru. Reserve your table today!" />
+  <meta name="keywords" content="café, coffee shop, Bengaluru restaurant, specialty coffee, artisan pastries, brunch, table reservation" />
+  <meta name="author" content="Brew & Bean Café" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Brew & Bean Café — Specialty Coffee & Artisan Food" />
+  <meta property="og:description" content="Where Every Sip Tells a Story. Handcrafted espresso, artisan pastries, and gourmet meals in Bengaluru." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/hero-bg.png" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Favicon (emoji as svg) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <div class="nav-logo-icon">☕</div>
+        <div class="nav-logo-text">Brew <span>&</span> Bean</div>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#reservation" class="btn btn-primary nav-cta">Reserve a Table</a></li>
+      </ul>
+
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="assets/images/hero-bg.png" alt="Brew and Bean Café interior with warm lighting" />
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span>✦</span> Est. 2018 — Bengaluru's Finest
+      </div>
+      <h1>Where Every<br /><span class="accent">Sip Tells</span> a Story</h1>
+      <p class="hero-subtitle">
+        Handcrafted specialty coffee, artisan pastries, and soulful meals — 
+        brewed with passion in the heart of Bengaluru.
+      </p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+        <a href="#reservation" class="btn btn-outline" style="border-color:#fff; color:#fff;">Reserve a Table</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal-left">
+          <img src="assets/images/about.png" alt="Flat lay of café items on wooden table" />
+          <div class="about-image-badge">
+            Since 2018
+            <small>Crafting Experiences</small>
+          </div>
+        </div>
+        <div class="about-text reveal-right">
+          <h3>Our Story</h3>
+          <h2>Crafted with Love,<br />Served with Soul</h2>
+          <p>
+            What started as a small corner coffee stall in 2018 has blossomed into Bengaluru's most beloved 
+            neighbourhood café. At Brew & Bean, we source our beans directly from estates in Coorg and 
+            Chikmagalur, roasting them in-house to bring you the freshest, most flavourful cup every single time.
+          </p>
+          <p>
+            Our kitchen team transforms locally-sourced ingredients into comforting dishes that pair perfectly 
+            with our signature brews. Whether you're here for a quick espresso or a leisurely brunch, 
+            we promise an experience that feels like home.
+          </p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon">🌿</div>
+              <span class="about-feature-text">Farm-to-Cup Beans</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">👨‍🍳</div>
+              <span class="about-feature-text">Chef-Crafted Food</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">🏡</div>
+              <span class="about-feature-text">Cozy Ambiance</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">💚</div>
+              <span class="about-feature-text">Eco-Friendly</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <div class="stat-number"><span class="counter" data-target="7">0</span>+</div>
+          <div class="stat-label">Years of Brewing</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-number"><span class="counter" data-target="50000">0</span>+</div>
+          <div class="stat-label">Coffees Served</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-number"><span class="counter" data-target="15000">0</span>+</div>
+          <div class="stat-label">Happy Customers</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-number"><span class="counter" data-target="35">0</span>+</div>
+          <div class="stat-label">Menu Specials</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU SECTION ===== -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">What We Serve</span>
+        <h2 class="section-title">Our Signature Menu</h2>
+        <p class="section-desc">From single-origin pour-overs to artisan pastries baked fresh every morning — explore the flavours that define us.</p>
+      </div>
+
+      <div class="menu-tabs reveal">
+        <button class="menu-tab active" data-tab="coffee">☕ Coffee</button>
+        <button class="menu-tab" data-tab="food">🍽️ Food</button>
+        <button class="menu-tab" data-tab="pastries">🥐 Pastries</button>
+        <button class="menu-tab" data-tab="specials">✨ Specials</button>
+      </div>
+
+      <!-- Coffee Tab -->
+      <div class="menu-content active" id="tab-coffee">
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/menu-coffee.png" alt="Cappuccino" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Classic Cappuccino</h4>
+              <span class="menu-card-price">₹220</span>
+            </div>
+            <p class="menu-card-desc">Rich espresso layered with steamed milk and velvety microfoam, topped with latte art.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Hot</span><span class="menu-tag">Bestseller</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/menu-coffee.png" alt="Cold Brew" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Nitro Cold Brew</h4>
+              <span class="menu-card-price">₹280</span>
+            </div>
+            <p class="menu-card-desc">Slow-steeped 18 hours and infused with nitrogen for a creamy, smooth finish.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Cold</span><span class="menu-tag">Popular</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/menu-coffee.png" alt="Caramel Latte" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Salted Caramel Latte</h4>
+              <span class="menu-card-price">₹260</span>
+            </div>
+            <p class="menu-card-desc">House-made salted caramel blended with our signature espresso and frothy oat milk.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Hot/Iced</span><span class="menu-tag">Vegan Option</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/menu-coffee.png" alt="Espresso" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Single Origin Pour Over</h4>
+              <span class="menu-card-price">₹300</span>
+            </div>
+            <p class="menu-card-desc">Hand-poured Chikmagalur Arabica with floral notes and a citrus finish.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Hot</span><span class="menu-tag">Premium</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/menu-coffee.png" alt="Mocha" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Belgian Mocha</h4>
+              <span class="menu-card-price">₹270</span>
+            </div>
+            <p class="menu-card-desc">Double espresso meets Belgian dark chocolate, topped with whipped cream.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Hot</span><span class="menu-tag">Indulgent</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/menu-coffee.png" alt="Matcha" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Ceremonial Matcha Latte</h4>
+              <span class="menu-card-price">₹290</span>
+            </div>
+            <p class="menu-card-desc">Premium Japanese matcha whisked to perfection with your choice of milk.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Hot/Iced</span><span class="menu-tag">Non-Coffee</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Food Tab -->
+      <div class="menu-content" id="tab-food">
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/gallery-1.png" alt="Avocado Toast" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Smashed Avocado Toast</h4>
+              <span class="menu-card-price">₹350</span>
+            </div>
+            <p class="menu-card-desc">Sourdough toast with smashed avocado, poached eggs, cherry tomatoes, and chilli flakes.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Brunch</span><span class="menu-tag">Bestseller</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/gallery-1.png" alt="Eggs Benedict" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Eggs Benedict</h4>
+              <span class="menu-card-price">₹380</span>
+            </div>
+            <p class="menu-card-desc">Poached eggs on English muffin with hollandaise sauce and smoked ham.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Brunch</span><span class="menu-tag">Classic</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/gallery-1.png" alt="Panini" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Grilled Chicken Panini</h4>
+              <span class="menu-card-price">₹320</span>
+            </div>
+            <p class="menu-card-desc">Herb-marinated chicken with mozzarella, sun-dried tomatoes, and pesto on ciabatta.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Lunch</span><span class="menu-tag">Popular</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/gallery-1.png" alt="Bowl" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Mediterranean Bowl</h4>
+              <span class="menu-card-price">₹340</span>
+            </div>
+            <p class="menu-card-desc">Quinoa, falafel, hummus, roasted vegetables, and tahini dressing in a nourish bowl.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Healthy</span><span class="menu-tag">Vegan</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pastries Tab -->
+      <div class="menu-content" id="tab-pastries">
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/menu-pastry.png" alt="Croissant" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Butter Croissant</h4>
+              <span class="menu-card-price">₹180</span>
+            </div>
+            <p class="menu-card-desc">Flaky, golden French croissant made with imported Normandy butter, baked fresh daily.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Fresh</span><span class="menu-tag">Classic</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/menu-pastry.png" alt="Cinnamon Roll" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Cinnamon Roll</h4>
+              <span class="menu-card-price">₹200</span>
+            </div>
+            <p class="menu-card-desc">Warm, gooey cinnamon swirl with cream cheese icing — pair with a hot latte.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Warm</span><span class="menu-tag">Bestseller</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/menu-pastry.png" alt="Tiramisu" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Classic Tiramisu</h4>
+              <span class="menu-card-price">₹280</span>
+            </div>
+            <p class="menu-card-desc">Ladyfinger biscuits soaked in espresso with mascarpone cream and cocoa dust.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Dessert</span><span class="menu-tag">Signature</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/menu-pastry.png" alt="Brownie" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Double Chocolate Brownie</h4>
+              <span class="menu-card-price">₹220</span>
+            </div>
+            <p class="menu-card-desc">Dense, fudgy brownie loaded with dark chocolate chunks and sea salt flakes.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Dessert</span><span class="menu-tag">Indulgent</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Specials Tab -->
+      <div class="menu-content" id="tab-specials">
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/menu-coffee.png" alt="Rose Latte" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Rose Cardamom Latte</h4>
+              <span class="menu-card-price">₹310</span>
+            </div>
+            <p class="menu-card-desc">A seasonal favourite — espresso infused with rose and cardamom syrup, with steamed milk.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Seasonal</span><span class="menu-tag">Chef's Pick</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/gallery-1.png" alt="Brunch Platter" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Weekend Brunch Platter</h4>
+              <span class="menu-card-price">₹550</span>
+            </div>
+            <p class="menu-card-desc">Scrambled eggs, smoked salmon, avocado, sourdough, granola bowl, and a drink of choice.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Weekend Only</span><span class="menu-tag">Sharing</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-image"><img src="assets/images/menu-coffee.png" alt="Affogato" /></div>
+          <div class="menu-card-info">
+            <div class="menu-card-top">
+              <h4 class="menu-card-name">Affogato al Caffè</h4>
+              <span class="menu-card-price">₹250</span>
+            </div>
+            <p class="menu-card-desc">Creamy vanilla gelato drowned in a shot of freshly pulled espresso.</p>
+            <div class="menu-card-tags"><span class="menu-tag">Dessert</span><span class="menu-tag">Quick Bite</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY SECTION ===== -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Our Space</span>
+        <h2 class="section-title">A Glimpse Inside</h2>
+        <p class="section-desc">Step into our world of warmth, aroma, and carefully curated aesthetics.</p>
+      </div>
+
+      <div class="gallery-grid reveal">
+        <div class="gallery-item">
+          <img src="assets/images/gallery-3.png" alt="Cozy café interior with Edison bulb lighting" />
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">The Cozy Corner</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/images/gallery-2.png" alt="Artisan coffee drinks" />
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">Signature Brews</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/images/gallery-1.png" alt="Gourmet avocado toast" />
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">Artisan Kitchen</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/images/gallery-4.png" alt="Pastry display case" />
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">Bakery Showcase</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS SECTION ===== -->
+  <section class="section testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Customer Love</span>
+        <h2 class="section-title">What Our Guests Say</h2>
+        <p class="section-desc">Don't just take our word for it — hear from the people who make our café special.</p>
+      </div>
+
+      <div class="testimonial-slider reveal">
+        <div class="testimonial-track">
+          <div class="testimonial-card active">
+            <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+            <p class="testimonial-text">"The best cold brew I've ever had — and I've been to cafés across Europe. The ambiance is unmatched. This is my go-to spot every single morning."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">A</div>
+              <div class="testimonial-author-info">
+                <h4>Ananya Sharma</h4>
+                <p>Regular Customer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+            <p class="testimonial-text">"We hosted our startup's launch event here and the team went above and beyond. Amazing food, beautiful space, and the warmest hospitality."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">R</div>
+              <div class="testimonial-author-info">
+                <h4>Rahul Mehta</h4>
+                <p>Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+            <p class="testimonial-text">"I bring my family here every weekend for brunch. The avocado toast is divine, and the kids absolutely love the brownies. It truly feels like a second home."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">P</div>
+              <div class="testimonial-author-info">
+                <h4>Priya Reddy</h4>
+                <p>Food Blogger</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+            <p class="testimonial-text">"As a freelancer, I need a perfect work café — great Wi-Fi, excellent coffee, and a quiet atmosphere. Brew & Bean checks every box."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">K</div>
+              <div class="testimonial-author-info">
+                <h4>Karthik Nair</h4>
+                <p>Freelance Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-controls">
+          <button class="testimonial-btn" id="prevTestimonial">←</button>
+          <button class="testimonial-btn" id="nextTestimonial">→</button>
+        </div>
+        <div class="testimonial-dots" id="testimonialDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESERVATION SECTION ===== -->
+  <section class="section reservation-section" id="reservation">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Book Now</span>
+        <h2 class="section-title">Reserve Your Table</h2>
+        <p class="section-desc">Guarantee your spot at Brew & Bean. Walk-ins are welcome, but reservations ensure the best experience.</p>
+      </div>
+
+      <div class="reservation-grid">
+        <div class="reservation-info reveal-left">
+          <h2>Join Us for an<br />Unforgettable Experience</h2>
+          <p>Whether it's a date night, a business breakfast, or a weekend gathering with friends — our team will make it special.</p>
+
+          <div class="reservation-details">
+            <div class="reservation-detail">
+              <div class="reservation-detail-icon">📍</div>
+              <div class="reservation-detail-text">
+                <h4>Location</h4>
+                <p>42 Rosewood Avenue, Indiranagar, Bengaluru 560038</p>
+              </div>
+            </div>
+            <div class="reservation-detail">
+              <div class="reservation-detail-icon">🕐</div>
+              <div class="reservation-detail-text">
+                <h4>Opening Hours</h4>
+                <p>Mon – Sat: 7:00 AM – 10:00 PM<br />Sunday: 8:00 AM – 9:00 PM</p>
+              </div>
+            </div>
+            <div class="reservation-detail">
+              <div class="reservation-detail-icon">📞</div>
+              <div class="reservation-detail-text">
+                <h4>Phone</h4>
+                <p>+91 98765 43210</p>
+              </div>
+            </div>
+            <div class="reservation-detail">
+              <div class="reservation-detail-icon">✉️</div>
+              <div class="reservation-detail-text">
+                <h4>Email</h4>
+                <p>hello@brewandbean.in</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reservation-form-wrapper reveal-right">
+          <h3>Make a Reservation</h3>
+          <form id="reservationForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resName">Full Name</label>
+                <input type="text" id="resName" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="resPhone">Phone Number</label>
+                <input type="tel" id="resPhone" placeholder="+91 XXXXX XXXXX" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resDate">Date</label>
+                <input type="date" id="resDate" required />
+              </div>
+              <div class="form-group">
+                <label for="resTime">Time</label>
+                <input type="time" id="resTime" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resGuests">Number of Guests</label>
+                <select id="resGuests" required>
+                  <option value="">Select guests</option>
+                  <option>1 Person</option>
+                  <option>2 People</option>
+                  <option>3–4 People</option>
+                  <option>5–6 People</option>
+                  <option>7+ People</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="resOccasion">Occasion</label>
+                <select id="resOccasion">
+                  <option value="">Select (optional)</option>
+                  <option>Birthday</option>
+                  <option>Anniversary</option>
+                  <option>Business Meeting</option>
+                  <option>Date Night</option>
+                  <option>Casual Dining</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="resMessage">Special Requests</label>
+              <textarea id="resMessage" placeholder="Any dietary requirements, seating preferences, etc." rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">Confirm Reservation</button>
+          </form>
+
+          <div class="form-success" id="reservationSuccess">
+            <div class="form-success-icon">🎉</div>
+            <h3>Reservation Confirmed!</h3>
+            <p>We'll send a confirmation to your phone. See you soon!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-desc">Have a question, feedback, or want to partner with us? We'd love to hear from you.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-form-card reveal-left">
+          <h3>Send Us a Message</h3>
+          <p>We'll get back to you within 24 hours.</p>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="contactName">Your Name</label>
+              <input type="text" id="contactName" placeholder="Full name" required />
+            </div>
+            <div class="form-group">
+              <label for="contactEmail">Email Address</label>
+              <input type="email" id="contactEmail" placeholder="you@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="contactSubject">Subject</label>
+              <input type="text" id="contactSubject" placeholder="What's this about?" required />
+            </div>
+            <div class="form-group">
+              <label for="contactMessage">Message</label>
+              <textarea id="contactMessage" placeholder="Tell us more..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark form-submit">Send Message</button>
+          </form>
+
+          <div class="form-success" id="contactSuccess">
+            <div class="form-success-icon">✅</div>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. We'll respond within 24 hours.</p>
+          </div>
+        </div>
+
+        <div class="contact-map reveal-right">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0!2d77.6408!3d12.9784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU4JzQyLjIiTiA3N8KwMzgnMjYuOSJF!5e0!3m2!1sen!2sin!4v1"
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Brew and Bean Café Location on Google Maps">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="contact-info-strip">
+        <div class="contact-info-card reveal">
+          <div class="contact-info-icon">📍</div>
+          <h4>Visit Us</h4>
+          <p>42 Rosewood Avenue<br />Indiranagar, Bengaluru 560038</p>
+        </div>
+        <div class="contact-info-card reveal">
+          <div class="contact-info-icon">📞</div>
+          <h4>Call Us</h4>
+          <p>+91 98765 43210<br />+91 80 2345 6789</p>
+        </div>
+        <div class="contact-info-card reveal">
+          <div class="contact-info-icon">✉️</div>
+          <h4>Email Us</h4>
+          <p>hello@brewandbean.in<br />reservations@brewandbean.in</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Brew <span>&</span> Bean</h3>
+          <p>Where every sip tells a story. Crafting the finest specialty coffee and artisan food experiences since 2018 in the heart of Bengaluru.</p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social" aria-label="Instagram">📷</a>
+            <a href="#" class="footer-social" aria-label="Facebook">📘</a>
+            <a href="#" class="footer-social" aria-label="Twitter">🐦</a>
+            <a href="#" class="footer-social" aria-label="YouTube">🎬</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Hours</h4>
+          <ul>
+            <li><a href="javascript:void(0)">Mon – Fri: 7 AM – 10 PM</a></li>
+            <li><a href="javascript:void(0)">Saturday: 7 AM – 10 PM</a></li>
+            <li><a href="javascript:void(0)">Sunday: 8 AM – 9 PM</a></li>
+            <li><a href="javascript:void(0)">Holidays: 9 AM – 6 PM</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-newsletter">
+          <h4>Stay Updated</h4>
+          <p>Subscribe to our newsletter for exclusive offers and seasonal menu updates.</p>
+          <form class="footer-newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Your email address" required />
+            <button type="submit">→</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2024 Brew & Bean Café. All rights reserved.</p>
+        <p>Designed with ☕ & ❤️ in Bengaluru</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
